@@ -1,0 +1,113 @@
+.header{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.header-list{
+    display: none;
+    @media (min-width: 1920px) {
+        display: flex;
+        gap: 60px;
+    }
+}
+.header-navigation{
+    display: flex;
+    align-items: center;
+    @media (min-width: 1920px) {
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.header-search{
+    background-image: url(../img/search.svg);
+    background-repeat: no-repeat;
+    width: 18.2px;
+    height: 17.5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 97px;
+}
+
+.header-logo{
+    margin-left: 35px;
+    margin-top: 48px;
+    width: 140px;
+    @media (min-width: 1920px) {
+    width: 185px;
+    margin-top: 0px;
+    }
+}
+
+.header-menu-open{
+    background-image: url(../img/menu.svg);
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 12px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 34px;
+}
+
+/*mob menu - HELPELPHPELHPLHE*/
+
+
+.header-menu-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background-color: transparent;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    &:hover, &:focus {
+        color: var(--red);
+    }
+}
+.header-menu-wrap {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header-menu-item {
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.header-menu-link {
+    display: block;
+    color: var(--black);
+    &:hover, &:focus {
+        transform: translateX(5px);
+        color: var(--red);
+    }
+}
+
+.header-menu{
+    position: fixed;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 48px 40px;
+    z-index: 1;
+    background-color: white;
+}
+.header-menu-list{
+    justify-content: space-between;
+    margin-top: 37px;
+    display: flex;
+    @media (min-width: 1920px) {
+    margin-top: 0px;
+    }
+}

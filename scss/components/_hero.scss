@@ -1,0 +1,118 @@
+.hero-title{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 58.15px;
+    line-height: 63px;
+    margin-top: 60px;
+    margin-left: 30px;
+    @media (min-width: 1920px) {
+    font-size: 120px;
+    line-height: 130px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    margin-left: 277px;
+    }
+}
+
+.hero{
+    background-image: url(../img/header-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 153px;
+    position: relative;
+    @media (min-device-pixel-ratio:2),(min-resolution:192dpi), (min-resolution:2dppx) {
+        background-image: url(../img/header-background@2x.png);
+    }
+    @media (min-width:1920px){
+        padding-top: 266px;
+        background-image: url(../img/header-background.png);
+        @media (min-device-pixel-ratio:2),(min-resolution:192dpi), (min-resolution:2dppx) {
+            background-image: url(../img/header-background@2x.png);
+        }
+    }
+}
+
+.hero-list{
+    margin-top: 54px;
+    @media (min-width:1920px){
+        display: flex;
+        margin-left: 277px;
+        margin-top: 241px;
+    }
+}
+
+.hero-item{
+    margin-left: 32px;
+    margin-right: 32px;
+    background-color: rgba(0, 0, 0, 0.45);
+    padding: 32px;
+    @media (min-width:1920px){
+        padding-right: 200px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+.hero-btn{
+    display: block;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    background-color: var(--red);
+    color: rgba(255, 255, 255, 0.8);
+    padding: 21.5px 90.5px ;
+    border-radius: 108px;
+    cursor: pointer;
+    justify-self: center;
+    margin-top: 10px;
+    &:hover{
+        background-color: rgb(152, 17, 17);
+    }
+    @media (min-width: 1920px) {
+    justify-self: normal;
+    margin-left: 277px;
+    }
+}
+
+
+
+.hero-number{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 100%;
+    color: var(--red);
+}
+
+.hero-item-title{
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 26.41px;
+    line-height: 41.08px;
+    margin-top: 4px;
+}
+
+.hero-text{
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: -38px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: rgba(147, 147, 147, 1);
+}
+
+.hero-video{
+    margin-left: 31.5px;
+    margin-bottom: 40px;
+    @media (min-width: 1920px) {
+        width: 417px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        position: absolute;
+        top: 833px;
+        left: 1503px;
+    }
+}

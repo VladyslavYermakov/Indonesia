@@ -1,0 +1,47 @@
+.map{
+    background-image: url(../img/map-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.map-title{
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: black;
+    margin-top: 171px;
+    
+}
+
+.map-text{
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #6F7787;
+    margin-top: 36px;
+}
+
+.map-btn{
+    display: block;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    background-color: var(--red);
+    color: var(--white);
+    padding: 23px 108px ;
+    border-radius: 122px;
+    cursor: pointer;
+    justify-self: center;
+    margin-top: 41px;
+    margin-bottom: 116px;
+    &:hover{
+        background-color: rgb(152, 17, 17);
+    }
+}

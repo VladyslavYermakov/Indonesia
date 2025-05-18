@@ -1,0 +1,39 @@
+.footer{
+    background-color: var(--black);
+    padding-bottom: 84px;
+}
+.footer-logo{
+    margin-left: 100px;
+    margin-top: 146px;
+}
+.footer-item-text{
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 36px;
+    letter-spacing: 0.64px;
+    color: white;
+    text-align: center;
+    margin-top: 36px;
+}
+.footer-item-text:hover{
+    color: var(--red);
+}
+.footer-copyright{
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 23.24px;
+    line-height: 36.15px;
+    letter-spacing: 0.65px;
+    text-align: center;
+}
+.footer-list-socialmedia{
+    display: flex;
+    justify-content: center;
+}
+.socialmedia-item{
+    margin-right: 48px;
+}
+.socialmedia-item:last-child{
+    margin-right: 0px;
+}

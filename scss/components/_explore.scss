@@ -1,0 +1,143 @@
+.explore-title{
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #010A20;
+    padding-top: 30px;
+    @media (min-width: 1920px) {
+    font-size: 50px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    }
+}
+
+.explore-img{
+    margin-left: 31.5px;
+    margin-top: 30px;
+    margin-bottom: 728px;
+    @media (min-width: 1920px) {
+    display: none;
+    margin-bottom: 0px;
+    }
+}
+
+.explore-bg{
+    background-image: url(../img/explore-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 127px;
+}
+
+.explore-list{
+    display: none;
+    @media (min-width: 1920px) {
+    display: flex;
+    justify-content: center;
+    }
+}
+.explore-photos{
+    margin-right: 31px;
+    margin-top: 44px;
+    margin-bottom: 500px;
+}
+.explore-photos:last-child{
+    margin-right: 0px;
+}
+
+/*NUMBERS ЭТО ТА ЖЕ СЕКЦИЯ С EXPLORE ПРОСТО ЭТО ЧТОБЫ Я ПОНИМАЛ!!*/
+
+
+.numbers{
+    background-color: #010a20dc;
+    padding-bottom: 69px;
+    padding-top: 65px;
+    margin-top: 400px;
+    @media (min-width: 1920px) {
+    margin-right: -15px;
+    margin-left: -15px;
+    }
+}
+
+.numbers-title{
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.numbers-list{
+    @media (min-width: 1920px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 224px;
+    }
+}
+.numbers-item{
+    @media (min-width: 1920px) {
+    margin-right: 91px;
+    }
+    &:last-child{
+        margin-right: 0px;
+    }
+}
+
+.numbers-text{
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-top: 50px;
+    color: var(--text);
+}
+
+.numbers-item-numbers{
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--red);
+    margin-top: 81px;
+}
+
+.numbers-item-numbers3{
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--red);
+    margin-top: 44px;
+    @media (min-width: 1920px) {
+    margin-top: 81px;
+    }
+}
+
+.numbers-item-text{
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: var(--text);
+    margin-top: 5px;
+}
+
+
+
